@@ -39,7 +39,7 @@ function App() {
       'clear sky': 'Céu Limpo',
       'scattered clouds': 'Nublado',
       'overcast clouds': 'Nublado',
-      'few clouds': 'Poucas Nuvens',
+      'few clouds': 'Pred. Nublado',
       'light rain': 'Chuva Leve',
       'light intensity shower rain': 'Raios intensos com chuva',
       'Rain': 'Chuva',
@@ -114,7 +114,7 @@ function App() {
               <Col xs={9} style={{ marginBottom: '15px', marginLeft: '12%' }}>
                 <Card className="mb-3 ml-auto" style={{ transform: 'scaleX(1.2)', height: '105%', display: 'flex', flexDirection: 'column' }}>
                   <Card.Body style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-                    <Card.Title>Gráficos em Linhas - Monitoramento da Usina de Asfalto - Usipav</Card.Title>
+                    <Card.Title>Gráficos em Linhas - Monitoramento da Usina de Asfalto Usipav</Card.Title>
                     <Card.Text></Card.Text>
                     <div style={{ flex: 1, overflow: 'hidden' }}>
                       <Dashboard />
